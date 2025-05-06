@@ -1,0 +1,29 @@
+#youll need Python version 3.10 or below to for the script to be compatible with the requiremnts
+
+# Web framework
+Flask==2.3.3
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine Learning
+tensorflow==2.15.0  # or use torch==2.1.0 if you're using PyTorch instead
+
+# Preprocessing and Metrics
+scikit-learn==1.4.2
+
+# Visualization (optional)
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Backtesting framework
+backtrader==1.9.78.123  # Or use bt, quantstats, or vectorbt if preferred
+
+# Financial data API
+yfinance==0.2.37         # For Yahoo Finance
+# OR use Binance with ccxt
+ccxt==4.1.14
+
+# Environment variables (optional)
+python-dotenv==1.0.1
